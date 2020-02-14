@@ -15,5 +15,11 @@ def sacar_primo(ini, fin):
             a.append(i)
     print(a)
 
-print (sacar_primo(0,1000))          
+ini = int(input("Ingrese el valor de inicio: "))
+print("Has insertado ", ini)
+
+fin = int(input("Ingrese el valor de inicio: "))
+print("Has insertado ", fin)
+
+print (sacar_primo(ini,fin))          
 
